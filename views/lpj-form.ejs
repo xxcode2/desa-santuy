@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LPJ Desa Santuy</title>
+</head>
+<body>
+  <h2>LPJ Kegiatan Desa</h2>
+
+  <form method="POST" action="/generate">
+    <label>Nama Desa</label><br />
+    <input name="desa" required /><br /><br />
+
+    <label>Nama Kegiatan</label><br />
+    <input name="kegiatan" required /><br /><br />
+
+    <label>Lokasi</label><br />
+    <input name="lokasi" /><br /><br />
+
+    <label>Waktu Pelaksanaan</label><br />
+    <input name="waktu" /><br /><br />
+
+    <label>Pagu Anggaran</label><br />
+    <input name="pagu" /><br /><br />
+
+    <label>Realisasi</label><br />
+    <input name="realisasi" /><br /><br />
+
+    <label>Hasil Kegiatan</label><br />
+    <textarea name="hasil"></textarea><br /><br />
+
+    <button type="submit">Generate LPJ Word</button>
+  </form>
+</body>
+</html>
